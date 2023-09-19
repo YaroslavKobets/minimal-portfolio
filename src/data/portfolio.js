@@ -6,10 +6,10 @@ export default [
 		link: 'https://etherfuse.com/',
 	},
 	{
-		title: '2 Website',
-		imgUrl: './assets/etherfuse.jpg',
+		title: 'Fulcrum Blog',
+		imgUrl: './assets/fulcrum-blog.png',
 		stack: ['HTML', 'CSS', 'JavaScript'],
-		link: 'https://github.com/',
+		link: 'https://fulcrum.rocks/blog/',
 	},
 	{
 		title: '3 Website',
