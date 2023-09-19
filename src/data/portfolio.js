@@ -1,7 +1,7 @@
 export default [
 	{
 		title: 'etherfuse',
-		imgUrl: './assets/etherfuse.jpg',
+		imgUrl: './assets/smartmockups_lmpy6upb.png',
 		stack: ['HTML', 'SCSS', 'JavaScript', 'GSAP', 'Barba JS', 'GULP'],
 		link: 'https://etherfuse.com/',
 	},
