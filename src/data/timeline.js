@@ -7,7 +7,7 @@ export default [
 			"Developing multi-page websites for a specific company product, implementing multilanguage functionality. Adding new features and fixing bugs on existing websites. Rewriting outdated code to meet new standards. Designing and implementing a component-based approach for creating the company's product websites.",
 	},
 	{
-		year: 'January - February 2023',
+		year: 'January 2023 - February 2023',
 		title: 'Part-time Front-end Developer at Foxtrot',
 		duration: '2 month',
 		details:

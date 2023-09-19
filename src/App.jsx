@@ -65,22 +65,18 @@ function App() {
 
 	return (
 		<>
-			<div className='fixed sm:flex justify-end p-1 left-0 top-0 w-full z-10 bg-white/95 dark:bg-stone-900/95 grid grid-cols-[200px_48px_48px] gap-2 '>
+			<div className='fixed flex justify-end p-1 sm:p-2 w-full z-10 bg-white/95 dark:bg-stone-900/95 gap-1 sm:gap-2 '>
 				<HeaderButton
-					className='col-start-1'
+					className=''
 					href='https://djinni.co/q/1a4138d63a/'
 					target='_blank'
 				>
 					&#128293; Hire Me &#128293;
 				</HeaderButton>
-				<HeaderButton className='col-start-1' href='#' download>
+				<HeaderButton href='#' download>
 					Download CV
 				</HeaderButton>
-				<HeaderButton
-					className='col-start-2 row-start-2'
-					href='https://github.com/YaroslavKobets'
-					target='_blank'
-				>
+				<HeaderButton href='https://github.com/YaroslavKobets' target='_blank'>
 					<img
 						className='max-w-[24px] invert dark:invert-0'
 						src='./assets/github.svg'
@@ -88,7 +84,6 @@ function App() {
 					/>
 				</HeaderButton>
 				<HeaderButton
-					className='col-start-2 row-start-1'
 					href='https://www.linkedin.com/in/yaroslav-kobets-5037021a6'
 					target='_blank'
 				>
@@ -98,13 +93,13 @@ function App() {
 						alt='LinkedIn'
 					/>
 				</HeaderButton>
-				<button
+				<HeaderButton
 					type='button'
 					onClick={handleThemeSwitch}
-					className='py-2 px-3 bg-violet-300 text-lg p-1 rounded-md dark:bg-orange-300 col-start-3 row-start-1'
+					className='bg-violet-300 dark:bg-orange-300'
 				>
 					{theme === 'dark' ? sun : moon}
-				</button>
+				</HeaderButton>
 			</div>
 
 			<div className='bg-white dark:bg-stone-900 text-stone-900 dark:text-stone-300 min-h-screen font-inter'>
