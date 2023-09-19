@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
+import HeaderButton from './components/HeaderButton'
 import Intro from './components/Intro'
 import Portfolio from './components/Portfolio'
 import Timeline from './components/Timeline'
@@ -64,15 +65,50 @@ function App() {
 
 	return (
 		<>
-			<button
-				type='button'
-				onClick={handleThemeSwitch}
-				className='fixed p-2 z-10 right-4 top-4 bg-violet-300  text-lg p-1 rounded-md dark:bg-orange-300'
-			>
-				{theme === 'dark' ? sun : moon}
-			</button>
+			<div className='fixed sm:flex justify-end p-1 left-0 top-0 w-full z-10 bg-white/95 dark:bg-stone-900/95 grid grid-cols-[200px_48px_48px] gap-2 '>
+				<HeaderButton
+					className='col-start-1'
+					href='https://djinni.co/q/1a4138d63a/'
+					target='_blank'
+				>
+					&#128293; Hire Me &#128293;
+				</HeaderButton>
+				<HeaderButton className='col-start-1' href='#' download>
+					Download CV
+				</HeaderButton>
+				<HeaderButton
+					className='col-start-2 row-start-2'
+					href='https://github.com/YaroslavKobets'
+					target='_blank'
+				>
+					<img
+						className='max-w-[24px] invert dark:invert-0'
+						src='./assets/github.svg'
+						alt='GitHub'
+					/>
+				</HeaderButton>
+				<HeaderButton
+					className='col-start-2 row-start-1'
+					href='https://www.linkedin.com/in/yaroslav-kobets-5037021a6'
+					target='_blank'
+				>
+					<img
+						className='max-w-[24px] invert dark:invert-0'
+						src='./assets/linkedin.svg'
+						alt='LinkedIn'
+					/>
+				</HeaderButton>
+				<button
+					type='button'
+					onClick={handleThemeSwitch}
+					className='py-2 px-3 bg-violet-300 text-lg p-1 rounded-md dark:bg-orange-300 col-start-3 row-start-1'
+				>
+					{theme === 'dark' ? sun : moon}
+				</button>
+			</div>
+
 			<div className='bg-white dark:bg-stone-900 text-stone-900 dark:text-stone-300 min-h-screen font-inter'>
-				<div className='max-w-5x1 w-10/12 mx-auto px-4'>
+				<div className='max-w-5x1 w-11/12 max-w-screen-2xl	mx-auto	'>
 					<Intro />
 					<Portfolio />
 					<Timeline />

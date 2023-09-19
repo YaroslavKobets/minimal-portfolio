@@ -1,30 +1,43 @@
 export default [
 	{
-		year: 'Today',
-		title: 'UFuture',
-		duration: '1 year 4 month',
+		year: 'October 2022 - Present',
+		title: 'Front-end Developer',
+		duration: '1 year',
 		details:
-			'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+			"Developing multi-page websites for a specific company product, implementing multilanguage functionality. Adding new features and fixing bugs on existing websites. Rewriting outdated code to meet new standards. Designing and implementing a component-based approach for creating the company's product websites.",
 	},
 	{
-		year: 'Today',
-		title: 'UFuture',
-		duration: '1 year 4 month',
+		year: 'January - February 2023',
+		title: 'Part-time Front-end Developer at Foxtrot',
+		duration: '2 month',
 		details:
-			'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+			'Completing tasks related to developing new components and fixing bugs in existing ones.',
 	},
 	{
-		year: 'Today',
-		title: 'UFuture',
-		duration: '1 year 4 month',
+		year: 'August 2020 - Present',
+		title: 'Part-time Web Developer ',
+		duration: 'Freelance',
 		details:
-			'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+			'Completing tasks related to frontend development, WordPress integration, developing and adding new functionality, bug fixing for both existing and new clients orders.',
 	},
 	{
-		year: 'Today',
-		title: 'UFuture',
-		duration: '1 year 4 month',
+		year: 'April 2021 – October 2022',
+		title: 'WordPress Developer at UFuture',
+		duration: '1 year 7 month',
 		details:
-			'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+			'Creating new designs and redesigning existing partner websites. Full integration of developed designs with WordPress and initial SEO setup. Providing support and adding new functionality to existing websites.',
+	},
+	{
+		year: 'October 2020 – March 2021',
+		title: 'Junior HTML coder at Seoprofy',
+		duration: '6 month',
+		details:
+			'Development of single-page websites with easy integration into WordPress.',
+	},
+	{
+		year: 'June 2020',
+		title: 'The first line of code "Hello World!"',
+		duration: '',
+		details: '',
 	},
 ]
