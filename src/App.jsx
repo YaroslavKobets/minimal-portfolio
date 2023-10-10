@@ -73,7 +73,10 @@ function App() {
 				>
 					&#128293; Hire Me &#128293;
 				</HeaderButton>
-				<HeaderButton href='#' download>
+				<HeaderButton
+					href='../public/CV-Yaroslav_Kobets_FRONT-END_DEVELOPER.pdf'
+					download
+				>
 					Download CV
 				</HeaderButton>
 				<HeaderButton href='https://github.com/YaroslavKobets' target='_blank'>
