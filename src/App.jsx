@@ -68,7 +68,7 @@ function App() {
 			<div className='fixed flex justify-end p-1 sm:p-2 w-full z-10 bg-white/95 dark:bg-stone-900/95 gap-1 sm:gap-2 '>
 				<HeaderButton
 					className=''
-					href='https://djinni.co/q/1a4138d63a/'
+					href='https://djinni.co/q/c161bf42b6/'
 					target='_blank'
 				>
 					&#128293; Hire Me &#128293;

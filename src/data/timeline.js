@@ -26,7 +26,7 @@ export default [
 	{
 		year: 'August 2020 - Present',
 		title: 'Part-time Web Developer ',
-		duration: `Freelance ${result('2020-01-09')}`,
+		duration: `Freelance ${result('2019-07-01')}`,
 		details:
 			'Completing tasks related to frontend development, WordPress integration, developing and adding new functionality, bug fixing for both existing and new clients orders.',
 	},
