@@ -14,7 +14,7 @@ function Timeline({ year, title, duration, details }) {
 			<h3 className='text-lg mt-2 font-semibold text-stone-900 dark:text-white'>
 				{title}
 			</h3>
-			<p className='mt-2 text-base font-normal text-stone-500 dark:text-stone-400'>
+			<p className='mt-2 text-base font-normal text-stone-500 dark:text-stone-400 whitespace-pre-line	'>
 				{details}
 			</p>
 		</li>

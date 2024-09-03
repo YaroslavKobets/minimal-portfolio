@@ -68,13 +68,13 @@ function App() {
 			<div className='fixed flex justify-end p-1 sm:p-2 w-full z-10 bg-white/95 dark:bg-stone-900/95 gap-1 sm:gap-2 '>
 				<HeaderButton
 					className=''
-					href='https://djinni.co/q/c161bf42b6/'
+					href='https://djinni.co/q/002a5cb50e/'
 					target='_blank'
 				>
 					&#128293; Hire Me &#128293;
 				</HeaderButton>
 				<HeaderButton
-					href='./CV-Yaroslav_Kobets_MIDDLE_FRONT-END_DEVELOPER_REACT_.pdf'
+					href='./CV-Yaroslav_Kobets_REACT_FRONT-END_DEVELOPER.pdf'
 					download
 				>
 					Download CV
@@ -87,7 +87,7 @@ function App() {
 					/>
 				</HeaderButton>
 				<HeaderButton
-					href='https://www.linkedin.com/in/yaroslav-kobets-5037021a6'
+					href='https://www.linkedin.com/in/yaroslav-kobets/'
 					target='_blank'
 				>
 					<img

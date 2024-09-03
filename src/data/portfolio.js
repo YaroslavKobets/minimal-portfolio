@@ -1,5 +1,17 @@
 export default [
 	{
+		title: 'FastCarRental',
+		imgUrl: './assets/portfolio/FastCarRental.png',
+		stack: ['Next.js', 'TypeScript', 'React', 'Tailwind.css'],
+		link: 'https://fast-car-rental.vercel.app/',
+	},
+	{
+		title: 'Trip to Iceland Demo',
+		imgUrl: './assets/portfolio/Trip_to_Iceland_Demo.png',
+		stack: ['React', 'SCSS', 'JavaScript', 'GSAP', 'Vite'],
+		link: 'https://yaroslavkobets.github.io/travel-demo/',
+	},
+	{
 		title: 'etherfuse',
 		imgUrl: './assets/portfolio/etherfuse.png',
 		stack: ['HTML', 'SCSS', 'JavaScript', 'GSAP', 'Barba JS', 'GULP'],
